@@ -276,6 +276,8 @@ export interface InlineConfig {
    * Format options for snapshot testing.
    */
   snapshotFormat?: PrettyFormatOptions
+
+  projects?: InlineConfig[]
 }
 
 export interface UserConfig extends InlineConfig {
